@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Palatino;
+    src: url(/assets/Palatino-Roman.otf);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Palatino;
+    src: url(/assets/Palatino-Bold.otf);
+    font-weight:700;
+}
+
+@font-face {
+    font-family: Effra;
+    src: url(/assets/Effra-Light.ttf);
+    font-weight:300;
+}
+
+@font-face {
+    font-family: Effra;
+    src: url(/assets/Effra-Regular.ttf);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Effra;
+    src: url(/assets/Effra-Medium.ttf);
+    font-weight:500;
+}
+
+@font-face {
+    font-family: Effra;
+    src: url(/assets/Effra-Bold.ttf);
+    font-weight:700;
+}
+
+
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans','Helvetica', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    min-height:100%;
+    width: 100%;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased;
+    font-soothing: antialiased;
+    overflow-x: hidden;
+    height:100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Effra', 'Helvetica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+    
+h1 h2 h3 h4 p{
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 300;
+    color: #363636;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:focus{
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    outline: none !important;
+} 
+
+a:focus{
+    outline:none;
+}
+
+input {
+    -webkit-appearance: none;
+    border: none;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+input, textarea, select, a {
+    outline: none; 
+    box-shadow: none;
+}
+
+section{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+/*Footer Styles*/
+footer{
+    background: #FD5C63;
+    width: 100%;
+    height: 10px;
+    position:absolute;
+    bottom:0;
+}
+
+
+/* Special Styles*/
+.bold{
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.noTopPadding{
+    padding-top: 0px !important;
+}
+
+.itAnIngredient{
+    font-weight: 500;
+}
+
+.inlineLink{
+    color: #FD5C63;
+    font-weight: 700;
+}
+
+button{
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.spanBold{
+    font-weight: 700;
+}
+
+.textbtn:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid currentColor;
+}
+
+
+/*Site Styles*/
+.headerLinksSection{
+    width: 100%;
+    position: absolute;
+    min-height: 60px;
+    top:0;
+    background: blue;
+}
+
+.headerLinksContainer{
+    width: 90%;
+    position: relative;
+    margin: 0px auto;
+    min-height: 60px;
+    background: red;
+}
+
+header{
+    width: 100%;
+    min-height: 100px;
+    position: relative;  
+}
+
+.logoSite{
+    float: left;
+    position: relative;
+}
+
+.logoClass{
+    height: 40px;
+    padding-top: 15px;
+}
+
+.siteLinks{
+    float: right;
+    position: relative;
+    margin-top: 25px;
+}
+
+.siteLinks a{
+    margin-left: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+}
+
+.siteLinks a:hover{
+    color: rgba(255,255,255,1);
+}
+
+.registerLink{
+    padding: 10px 15px;
+    background: #87D37C;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.headerLinksSection{
+    width: 100%;
+    position: absolute;
+    min-height: 60px;
+    top:0;
+    background: blue;
+}
+
+header{
+    width: 100%;
+    min-height: 100px;
+    position: relative;  
+}
+
+.logoSite, .siteLinks{
+    display: inline-block;
+}
