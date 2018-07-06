@@ -1,17 +1,283 @@
-.headerLinksSection{
-    width: 100%;
-    position: absolute;
-    min-height: 60px;
-    top:0;
-    background: blue;
-}
-
 header{
     width: 100%;
     min-height: 100px;
-    position: relative;  
+    position: relative;
+    display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    display: flex;
+
 }
 
 .logoSite, .siteLinks{
     display: inline-block;
 }
+
+.homeHeader{
+    background: url(/imgs/bg_img_01.jpg); 
+    min-height: 700px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerContent{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 200px;
+}
+
+.headerContentInside{
+    max-width: 500px;
+    padding: 0px 5%;
+}
+
+.headerContentInside h1{
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.headerContentInside h4{
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255,255,255,0.8);
+    padding-top: 40px;
+    padding-bottom: 55px;
+    font-weight: 500;
+}
+
+.exploreBtn{
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4A4A4A;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.ourStoryHome{
+    background-color: #3C8CEA;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: auto;
+    position: relative;
+}
+
+.ourStoryContent{
+    max-width: 1000px;
+    margin: 0px auto;
+    height: auto !important;
+    padding: 0px 5%;    
+    min-height: 400px;
+    position: relative;
+    overflow:hidden;
+}
+
+.ourStoryLeft, .ourStoryRight{
+    display: inline-block;
+}
+
+.ourStoryLeft{
+    float: left;
+    width: auto;
+    padding-right: 3%;
+}
+
+.ourStoryRight{
+    float: right;
+    width: 70%;
+    height: auto;
+}
+
+.ourStoryLeft h4{
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.ourStoryRight h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.ourStoryRight p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.signatureHome{
+    width: 160px;
+    padding-top: 50px;
+}
+
+.trainingsIndividualSection{
+    position: relative;
+    height: auto;
+    max-height: 780px;
+    display: block;
+    clear: both;
+}
+
+.trainingIMG, .trainingText{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    min-height: 300px;
+    max-height: 780px;
+    height: auto;
+}
+
+#homeTrainingImg2{
+    background: url(/imgs/trainingIndividual1.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    height: 100%;
+}
+
+#homeTrainingImg3{
+    background: url(/imgs/groupimg1.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    height: 100%;
+}
+
+.trainingTextContainer{
+    width: calc(90% - 100px);
+    max-width: 400px;
+    min-height: 100px;
+    padding-left: 100px;
+    padding-top: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.trainingTextContainer h4{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 700;
+    color: #252525;
+}
+
+.trainingTextContainer p{
+    color: #656565;
+    line-height: 28px;
+    font-weight: 600;
+    padding-top: 15px;   
+}
+
+.sellingpoints{
+    padding-top: 40px;
+}
+
+.sellingpoints p{
+    color: #252525;
+    text-transform: uppercase;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.learnMorebtn{
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.learnMorebtn a{
+    border: 2px solid #FD4F50;
+    border-radius: 2px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #FD4F50;
+}
+
+.learnMorebtn a:hover{
+    border: 2px solid #FD4F50;
+    background: #FD4F50;
+    color: #fff;
+}
+
+#homeTrainingImg2, #homeTrainingGroupTextCont{
+    
+}
+
+#homeTrainingGroupTextCont .trainingTextContainer{
+    float: right;
+    padding-right: 100px;
+}
+
+.summercampssection{
+    min-height: 300px;
+    position: relative;
+    clear: both;
+    background: url(/imgs/summer_camps1.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    height: 100%;
+    height: auto;
+    
+}
+
+.summercampssection .trainingTextContainer{
+    padding-top: 120px;
+}
+
+#scsttc h4{
+    color: #fff;
+}
+
+#scsttc p{
+    color: #F8F8F8;
+}
+
+#scslmbtn{
+    border: 2px solid #fff;
+    color: #4A4A4A;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

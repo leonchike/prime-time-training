@@ -41,7 +41,7 @@ html{
 }
 
 body {
-  font-family: 'Open Sans','Helvetica', serif;
+  font-family: 'Proxima Nova', 'Open Sans','Helvetica', serif;
 }
 
 body{
@@ -60,7 +60,7 @@ body{
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Effra', 'Helvetica', sans-serif;
+    font-family: 'Proxima Nova', 'Effra', 'Helvetica', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
 }
@@ -115,6 +115,7 @@ section{
     width: 100%;
     display: block;
     position: relative;
+    height: auto;
 }
 
 
@@ -165,10 +166,11 @@ button{
 /*Site Styles*/
 .headerLinksSection{
     width: 100%;
-    position: absolute;
+    position: ;
     min-height: 60px;
-    top:0;
-    background: blue;
+    z-index: 10;
+    position: absolute;
+
 }
 
 .headerLinksContainer{
@@ -176,7 +178,6 @@ button{
     position: relative;
     margin: 0px auto;
     min-height: 60px;
-    background: red;
 }
 
 header{
@@ -199,30 +200,139 @@ header{
     float: right;
     position: relative;
     margin-top: 25px;
+    letter-spacing: 0.75px;
 }
 
 .siteLinks a{
-    margin-left: 15px;
+    margin-left: 25px;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 13px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.85);
+    font-weight: 700;
 }
 
 .siteLinks a:hover{
     color: rgba(255,255,255,1);
 }
 
-.registerLink{
+.trigger{
     padding: 10px 15px;
     background: #87D37C;
     border-radius: 3px;
 }
 
 
+/* MODAL */
+
+#overlay {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+    visibility: hidden;
+     position: absolute;
+     z-index: 1000;
+    background: rgba(0,0,0,0.8);
+}
 
 
+.modalExplore{
+    width: 90%;
+    height: 90%;
+    margin-top: 2.5% !important;
+    position: relative;
+    margin: 0px auto;
+    background-color: #292929;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 700px;
+}
 
+.modalContent{
+    height: calc(100% - 90px) !important;
+    width: 100%;
+    position: relative;
+    clear: both;
+    height: auto;
+}
+
+.modalLinks{
+    height: calc(100% / 3);
+    background: red;
+    width: 100%;
+    clear: both;
+}
+
+.modalLinks h3{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+}
+
+#indModalLink{
+    background: url(/imgs/menu1.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#groModalLink{
+    background: url(/imgs/menu2.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sumModalLink{
+    background: url(/imgs/menu3.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.closeModalSection{
+    text-align: center;
+    clear: both;
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+
+#modalCloseBtn{
+    border: 2px solid #FD4F50;
+    background: #FD4F50;
+    color: #fff;
+    position: absolute;
+    padding: 12px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 2px;
+    width: 140px;
+    margin-left: -92px;
+    top: 23px;
+}
+
+.modalLinks{
+    opacity: 0.5 !important;
+}
+
+.modalLinks:hover{
+    opacity: 1 !important;
+}
+
+/* MODAL */
 
 
 

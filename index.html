@@ -16,37 +16,156 @@
         <!-- End Google Tag Manager -->
         
         <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="/fonts/fonts.css" />
         <link href="/css/global.css" rel="stylesheet" type="text/css">
         <link href="/css/home.css" rel="stylesheet" type="text/css">
         <!-- CSS -->
         
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/modal.js"></script>
+        <!--JS -->
+        
         
     </head>
     
-    <body>
-        <div class="headerLinksSection">
+    <body>   
+        <div id="overlay">
+         <div class="modalExplore">
+             
+             <div class="modalContent">
+                <a href="#">
+                    <div class="modalLinks" id="indModalLink">
+                        <h3>Explore our Individual Training Program</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modalLinks" id="groModalLink">
+                        <h3>Explore our Group Training Program</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modalLinks" id="sumModalLink">
+                        <h3>Explore our Summer Camps</h3>
+                    </div>
+                </a>
+             </div>
+            <div class="closeModalSection">
+                <a id="modalCloseBtn" href='#' onclick='overlay()'>Back to the Site</a>
+            </div>
+         </div>
+        </div>
+        
+        <header class="homeHeader">
+            <div class="headerLinksSection">
             <div class="headerLinksContainer">
                 <div class="logoSite">
                     <img class="logoClass" src="/imgs/logo.png"/>
                 </div>
 
                 <div class="siteLinks">
-                    <a href="">Explore Classes</a>
+                    <a href='#' onclick='overlay()'>Explore Classes</a>
                     <a href="">About</a>
                     <a href="">Our Store</a>
-                    <a class="registerLink" href="">Register!</a>
+                    <a class="trigger">Register!</a>
                 </div>
             </div>
             
         </div>
-        
-        <header>
-        
+            <div class="headerContent">
+                <div class="headerContentInside">
+                    <h1>Individual and Group <br>Soccer Training</h1>
+                    <h4>"Everyone deserves the opportunity to succeed. <br>Our Goal is to help along the way"</h4>
+                    <a class="exploreBtn" href="#exploreTrainingbtn">
+                        Explore Training
+                    </a>
+                </div>    
+            </div>
         </header>
+        
+        
+        
+        <section class="ourStoryHome">
+            <div class="ourStoryContent">
+                <div class="ourStoryLeft">
+                    <h4>Focus, <br>Discipline, <br>and Respect.</h4>
+                </div>
+                <div class="ourStoryRight">
+                    <h4>My Story</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna est, ornare sed condimentum ac, tempor ut purus. Aenean luctus mollis leo, eget molestie tortor. Praesent eget suscipit libero, a interdum libero. Quisque gravida tortor dictum, egestas metus eu, accumsan risus. Vestibulum vulputate nisl et felis sodales semper. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna est, ornare sed condimentum ac, tempor ut purus. Aenean luctus mollis leo, eget molestie tortor. Praesent eget suscipit libero, a interdum libero. Quisque gravida tortor dictum, egestas metus eu, accumsan risus. Vestibulum vulputate nisl et felis sodales semper. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna est, ornare sed condimentum ac, tempor ut purus. Aenean luctus mollis leo, eget molestie tortor. Praesent eget suscipit libero, a interdum libero. Quisque gravida tortor dictum, egestas metus eu, accumsan risus. Vestibulum vulputate nisl et felis sodales semper. </p>
+                    <img class="signatureHome" src="/imgs/fake_signature.png" />
+                </div>
+            </div>     
+        </section>
+    
+        
+        <section class="trainingsIndividualSection" id="exploreTrainingbtn">
+            <div class="trainingIMG" id="homeTrainingImg2">
+                
+            </div>
+            
+            <div class="trainingText">
+                <div class="trainingTextContainer">
+                    <h4>Individual <br>Training</h4>
+                    <p>Perfect for those who need a little extra motivation.
+You’ll receive a fully personalized training program that we’ll work to create and monitor together.</p>
+                    <div class="sellingpoints">
+                        <p>Flexible bookings</p>
+                        <p>PERSONAL, CUSTOMIZED TRAINING</p>
+                        <p>Progress tracking</p>
+                        <p>Multi-session discounts</p>
+                    </div>
+                    <div class="learnMorebtn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>      
+        </section>
+        
+        <section class="trainingsIndividualSection" id="groupTrainingContainer">
+            
+            
+            <div class="trainingText" id="homeTrainingGroupTextCont">
+                <div class="trainingTextContainer" id="">
+                    <h4>Group <br>Training</h4>
+                    <p>Perfect for those who need a little extra motivation.
+You’ll receive a fully personalized training program that we’ll work to create and monitor together.</p>
+                    <div class="sellingpoints">
+                        <p>Flexible bookings</p>
+                        <p>PERSONAL, CUSTOMIZED TRAINING</p>
+                        <p>Progress tracking</p>
+                        <p>Multi-session discounts</p>
+                    </div>
+                    <div class="learnMorebtn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="trainingIMG" id="homeTrainingImg3">
+                
+            </div>
+        </section>
+        
+        <section class="summercampssection">
+            <div class="trainingTextContainer" id="scsttc">
+                    <h4>Summer Camps</h4>
+                    <p>Perfect for those who need a little extra motivation.
+You’ll receive a fully personalized training program that we’ll work to create and monitor together.</p>
+
+                    <div class="learnMorebtn">
+                        <a  id="scslmbtn" href="">Learn More</a>
+                    </div>
+                </div>
+        </section>
     
     
-    
-    
+        <script type="text/javascript" src="/js/anchor_smooth_scroll.js">
+        </script>
+        
+        
     
     
     </body>
