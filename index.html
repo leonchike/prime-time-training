@@ -24,12 +24,18 @@
         <!-- JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="/js/modal.js"></script>
+        <script type="text/javascript" src="/js/menuModal.js"></script>
         <!--JS -->
         
         
     </head>
     
     <body>   
+        
+        <div class="mobileRegister">
+        
+        </div>
+        
         <div id="overlay">
          <div class="modalExplore">
              
@@ -51,10 +57,30 @@
                 </a>
              </div>
             <div class="closeModalSection">
-                <a id="modalCloseBtn" href='#' onclick='overlay()'>Back to the Site</a>
+                <a id="modalCloseBtn" href='#' onclick='overlay()' onclick='overlay()'>Back to the Site</a>
             </div>
          </div>
         </div>
+        
+        <!-- Mobile Menu Overlay-->
+        
+        <div id="menuoverlay">
+         <div class="menuBody">
+             <a id="menuoverlayCloseBtn" href='#' onclick='menuoverlay()' onclick='menuoverlay()'>
+                <img id="menuoverlaycloseX" src="/imgs/closeX.svg"/>
+             </a>
+             
+             <div class="mobileMenuLinkContainer">
+                <a href="#">Individual Training</a><br>
+                <a href="#">Group Training</a><br>
+                <a href="#">Summer Camps</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Our Store</a>
+             </div>
+         </div>
+        </div>
+        
+        <!-- Mobile Menu Overlay-->
         
         <header class="homeHeader">
             <div class="headerLinksSection">
@@ -69,6 +95,12 @@
                     <a href="">Our Store</a>
                     <a class="trigger">Register!</a>
                 </div>
+                
+                <a href='#' onclick='menuoverlay()' class="hamburgerMenu">
+                    <div>
+                        <img src="/imgs/menu.svg"/>
+                    </div>
+                </a>    
             </div>
             
         </div>
