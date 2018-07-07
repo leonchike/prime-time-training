@@ -14,3 +14,84 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
+.trainingContent{
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.trainingContentInside{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    min-height: 200px;
+}
+
+.h1TrainingHeader img{
+    height: 60px;
+}
+
+.h1TrainingHeader h1{
+    color: #fff;
+    font-size: 12px;
+}
+
+.pTrainingText{
+    padding-top: 20px;
+}
+
+.pTrainingText p{
+    color: #4A4A4A;
+}
+
+#trainingFeaturesHeading{
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
