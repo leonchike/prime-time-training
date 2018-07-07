@@ -218,7 +218,7 @@ header{
 
 .trigger{
     padding: 10px 15px;
-    background: #87D37C;
+    background: #FD4F50;
     border-radius: 3px;
 }
 
@@ -360,12 +360,13 @@ header{
 
 .hamburgerMenu{
     float: right;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .hamburgerMenu div img{
-    width: 40px;
+    width: 30px;
     fill: #fff !important;
+    opacity: 0.7;
 }
 
 #menuoverlay{
@@ -391,7 +392,7 @@ header{
 }
 
 #menuoverlaycloseX{
-    width: 40px;
+    width: 30px;
     position: absolute;
     right: 20px;
     top: 20px;
@@ -416,15 +417,29 @@ header{
 
 
 .mobileRegister{
-    height: 80px;
+    height: 60px;
     width: 100%;
     position: absolute;
     bottom: 0px;
     background: #252525;
     z-index: 500;
+    text-align: center;
 }
 
-
+.mobileRegister a{
+    padding: 12px 18px;
+    background: #FD4F50;
+    border-radius: 3px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px auto;
+    color: #fff;
+    letter-spacing: .75px;
+    top: 21px;
+}
 
 
 

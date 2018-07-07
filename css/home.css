@@ -270,6 +270,69 @@ header{
 }
 
 
+/*Mobile Styles*/
+
+@media (max-width:500px){
+    .ourStoryLeft, .ourStoryRight{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .ourStoryLeft h4{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .ourStoryHome{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .trainingsIndividualSection{
+        height: auto;
+        max-height: none;
+        overflow: hidden;
+    }
+    #homeTrainingImg2, #trainingTextIndividual{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #homeTrainingImg2{
+        max-height: 400px;
+        height: auto;
+    }
+    .trainingTextContainer{
+        width: 90%;
+        padding: 5%;
+        padding-top: 80px;
+    }
+    #homeTrainingImg3{
+        display: none;
+    }
+    #homeTrainingGroupTextCont{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    #trainingTextGroup{
+        display: block;
+        float: none;
+        width: 90%;
+        float: none;
+        padding-right: none;
+        padding: 0px 5%;
+    }
+    #homeTrainingGroupTextCont .trainingTextContainer{
+        float: none;
+        padding-right: none !important;
+    }
+    .summercampssection{
+        background: url(/imgs/summer_camps1-mobile.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+}
 
 
 
