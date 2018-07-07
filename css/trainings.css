@@ -1,0 +1,16 @@
+.trainingHeader{
+    background: #252525;
+    height: auto;
+    min-height: 200px;
+    max-height: 300px;
+    background: url(/imgs/trainings/indheader-img.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.trainingHeader .headerContent{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
