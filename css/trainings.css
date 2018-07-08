@@ -1,9 +1,28 @@
 .trainingHeader{
-    background: #252525;
     height: auto;
     min-height: 200px;
     max-height: 300px;
+    
+}
+
+#individualTHeader{
     background: url(/imgs/trainings/indheader-img.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#groupTHeader{
+    background: url(/imgs/trainings/groheader-img.jpg); 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#summerTCamps{
+    background: url(/imgs/trainings/sumheader-img.jpg); 
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

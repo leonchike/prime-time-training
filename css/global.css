@@ -76,6 +76,10 @@ h1 h2 h3 h4 p{
     color: #363636;
 }
 
+h1 h2 h3 h4{
+    font-family: 'proxima_nova_altbold';
+}
+
 
 a{
     text-decoration: none;
@@ -213,6 +217,7 @@ header{
 }
 
 .siteLinks a{
+    font-family: 'proxima_nova_altbold';
     margin-left: 25px;
     font-weight: 500;
     text-transform: uppercase;
@@ -226,7 +231,7 @@ header{
 }
 
 .trigger{
-    padding: 10px 15px;
+    padding: 13px 15px;
     background: #FD4F50;
     border-radius: 3px;
 }
@@ -246,7 +251,7 @@ header{
     visibility: hidden;
      position: absolute;
      z-index: 1000;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.9);
 }
 
 
@@ -284,6 +289,7 @@ header{
     text-transform: uppercase;
     color: #fff;
     font-size: 24px;
+    letter-spacing: 1px;
 }
 
 #indModalLink{
