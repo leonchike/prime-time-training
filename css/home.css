@@ -213,19 +213,19 @@ header{
 }
 
 .learnMorebtn a{
-    border: 2px solid #FD4F50;
+    border: 2px solid #c2151c;
     border-radius: 2px;
     padding: 12px 40px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #FD4F50;
+    color: #c2151c;
 }
 
 .learnMorebtn a:hover{
-    border: 2px solid #FD4F50;
-    background: #FD4F50;
+    border: 2px solid #c2151c;
+    background: #c2151c;
     color: #fff;
 }
 
@@ -274,7 +274,7 @@ header{
 
 /*Mobile Styles*/
 
-@media (max-width:500px){
+@media (max-width:700px){
     .ourStoryLeft, .ourStoryRight{
         display: block;
         float: none;
