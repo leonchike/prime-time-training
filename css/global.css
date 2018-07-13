@@ -439,11 +439,12 @@ header{
 .mobileRegister{
     height: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     background: #252525;
     z-index: 500;
     text-align: center;
+    z-index: 10000;
 }
 
 .mobileRegister a{
