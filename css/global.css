@@ -437,7 +437,7 @@ header{
 
 
 .mobileRegister{
-    height: 60px;
+    height: 95px;
     width: 100%;
     position: fixed;
     bottom: 0px;
@@ -445,6 +445,14 @@ header{
     z-index: 500;
     text-align: center;
     z-index: 1000;
+}
+
+.mobileRegister h3{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #C6C6C6;
+    letter-spacing: 0.05em;
 }
 
 .mobileRegister a{
@@ -460,6 +468,7 @@ header{
     color: #fff;
     letter-spacing: .75px;
     top: 21px;
+    margin-bottom: 5px;
 }
 
 
