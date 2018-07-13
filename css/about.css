@@ -79,12 +79,16 @@
 
 .location{
     min-height: 200px;
+    height: auto;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .map, .currentLoc{
     display: inline-block;
     float: left;
-    min-height: 200px;
+    max-height: 700px;
+    position: relative;
 }
 
 .map{
@@ -94,6 +98,7 @@
 .currentLoc{
     width: 40%;
     background-color: #262844;
+    height: 100%;
 }
 
 .currentLocContent{
@@ -132,7 +137,14 @@
     text-transform: uppercase;
 }
 
-
+.map{
+    background: url(/imgs/map-washingtondc.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    }
 
 
 
