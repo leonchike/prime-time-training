@@ -131,6 +131,13 @@ section{
     padding-bottom: 30px;
 }
 
+button{
+    opacity: 0.85;
+}
+
+button:hover{
+    opacity: 1;
+}
 
 /*Footer Styles*/
 footer{
@@ -238,6 +245,11 @@ header{
     padding: 13px 15px;
     background: #c2151c;
     border-radius: 3px;
+    opacity: 0.85;
+}
+
+.trigger:hover{
+    opacity: 1;
 }
 
 
