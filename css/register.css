@@ -37,6 +37,7 @@
 
 #formSection{
     margin-top: 80px;
+    margin-bottom: 160px;
 }
 
 .formContainer{
@@ -209,7 +210,9 @@ input[type=checkbox]
     opacity: 1;
 }
 
-
+#thankyouPage section{
+    margin-bottom: 120px;
+}
 
 
 
