@@ -151,6 +151,10 @@ input[type=checkbox]
     color: #fff !important;
 }
 
+.thankYouSection{
+    min-height: calc(100% - 415px)
+}
+
 .thankyouMessage{
     width: 90%;
     position: relative;
@@ -208,6 +212,10 @@ input[type=checkbox]
 
 .thankyouMessage button:hover{
     opacity: 1;
+}
+
+#thankyouPage{
+    height: 100%;
 }
 
 #thankyouPage section{

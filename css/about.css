@@ -70,7 +70,7 @@
 
 .aboutContentInside div h1{
     font-size: 12px;
-    color: #fff;
+    color: #f6f6f6;
 }
 
 .aboutContentInside p{
@@ -104,7 +104,7 @@
 
 .currentLocContent{
     padding-left: 60px;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-bottom: 160px;
 }
 
@@ -145,6 +145,35 @@
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+}
+
+.aboutContentInside h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'proxima_nova_altbold';
+    color: #4A4A4A;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#aboutpage .paragraphText{
+    padding-bottom: 10px;
+}
+
+.aboutContent{
+    background-color: #f6f6f6;
+}
+
+#patrickBio{
+    padding-top: 40px;
+}
+
+.contactName{
+    font-family: 'proxima_nova_altbold';
+}
+
+#contactName2{
+    padding-top: 5px;
 }
 
 @media (max-width:700px){

@@ -79,7 +79,7 @@ header{
     margin: 0px auto;
     height: auto !important;
     padding: 0px 5%;    
-    min-height: 400px;
+    min-height: 200px;
     position: relative;
     overflow:hidden;
 }
@@ -107,6 +107,7 @@ header{
     font-weight: 600;
     color: #fff;
     margin-top: 0px;
+    letter-spacing: 1px;
 }
 
 .ourStoryRight h4{
@@ -114,6 +115,7 @@ header{
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .ourStoryRight p{
