@@ -141,6 +141,24 @@ input[type=checkbox]
     opacity: 1;
 }
 
+#legalDisclosureSection{
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+#fieldztifj-0{
+    padding-top: 5px !important;
+}
+
+#discText a{
+    font-family: 'proxima_nova_altbold' !important;
+    color: #c2151c;
+}
+
+#discText a:visited{
+    font-family: 'proxima_nova_altbold' !important;
+    color: #c2151c;
+}
 
 /*THANK YOU PAGE*/
 #thankyouPage .siteLinks a{
@@ -224,13 +242,48 @@ input[type=checkbox]
 
 
 
+/*Disclosure Page*/
+#disclosurePage{
+    min-height: 100% !important;
+}
 
+#legalDisclosure{
+    max-width: 800px;
+    padding: 100px;
+    margin: 0px auto;
+    display: block;
+    height: auto;
+    overflow-y: auto;
+}
 
+#legalDisclosure p{
+    line-height: 22px;
+}
 
+#closeSection{
+    height: auto;
+    margin-bottom: 180px;
+}
 
+#close-window{
+    text-align: center;
+    padding: 10px;
+    background: #252525;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin: 0px auto;
+    display: block;
+    max-width: 100px;
+    border-radius: 2px;
+    opacity: 0.7;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
 
-
-
+#close-window:hover{
+    opacity: 0.9;
+}
 
 
 
