@@ -182,10 +182,12 @@ footer{
     text-transform: uppercase;
     font-weight: 700;
     opacity: 0.85;
+    padding-bottom: 3px;
 }
 
 .footerRight div a:hover{
     opacity: 1;
+    border-bottom: 2px solid #EBEBEB;
 }
 
 
@@ -312,6 +314,14 @@ header{
 
 .siteLinks a:hover{
     color: rgba(255,255,255,1);
+}
+
+.siteLinksNotBoxed{
+    padding-bottom: 3px;
+}
+
+.siteLinksNotBoxed:hover{
+    border-bottom: 2px solid #fff;
 }
 
 .trigger{

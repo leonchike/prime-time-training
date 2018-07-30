@@ -153,6 +153,11 @@ input[type=checkbox]
 #discText a{
     font-family: 'proxima_nova_altbold' !important;
     color: #c2151c;
+    padding-bottom: 2px;
+}
+
+#discText a:hover{
+    border-bottom: 2px solid #c2151c;
 }
 
 #discText a:visited{
