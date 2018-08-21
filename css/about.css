@@ -1,3 +1,4 @@
+/*
 #aboutPage header{
     height: auto;
 }
@@ -17,6 +18,17 @@
 #aboutPage .trigger{
     color: #fff !important;
 }
+*/
+
+#aboutHeader{
+    background: url(/imgs/about_bg.jpg); 
+    min-height: 700px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position: relative;
+}
 
 .headerContent{
     margin: 0px auto;
@@ -27,54 +39,107 @@
 }
 
 .headerContentInside{
-    text-align: center;
+    max-width: 1100px;
+    width: 90%;
     margin: 0px auto;
+    padding-top: 120px;
 }
 
 .headerContentInside h1{
-    color: #4A4A4A;
-    text-align: center;
+    color: #fff;
+    font-size: 40px;
 }
 
 .aboutPage .headerContent{
     margin-bottom: 40px !important;
 }
 
-#imgPlaceHolder{
-    max-width: 600px;
-    height: 500px;
-    margin: 0px auto;
-    background: #4A4A4A;
-    width: 90%;
-    display: block;
-    margin-top: 80px;
-    clear: both;
+#aboutHeaderContent{
+    width: 60%;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
 }
 
+#abHeaderInside{
+    max-width: 600px;
+    width: 80%;
+    height: 140px;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+#abHeaderInside div{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    height: auto;
+    min-height: 90px;
+}
+
+#abHeaderInside div h2{
+    font-size: 1.3em;
+    color: #252525;
+    padding-top: 45px;
+}
+
+#abHeaderInside div h4{
+    font-size: 1em;
+    color: #797979;
+    padding-top: 15px;
+}
+
+
 .aboutContent{
-    -webkit-box-shadow: 0px -1px 5px 0px rgba(122,122,122,0.3);
+    /*-webkit-box-shadow: 0px -1px 5px 0px rgba(122,122,122,0.3);
     -moz-box-shadow: 0px -1px 5px 0px rgba(122,122,122,0.3);    
-    box-shadow: 0px -1px 5px 0px rgba(122,122,122,0.3);
+    box-shadow: 0px -1px 5px 0px rgba(122,122,122,0.3);*/
     min-height: 300px;
 }
 
 .aboutContentInside{
-    max-width: 600px;
+    max-width: 900px;
     width: 90%;
     margin: 0px auto;
     height: auto;
     min-height: 100px;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 80px;
-}
-
-.aboutContentInside div{
-    padding-bottom: 30px;
 }
 
 #aboutHeader{
     height: 60px;
 }
+
+.aboutProfileContainer{
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+    height: auto;
+    padding-bottom: 30px;
+    overflow-y: auto;
+}
+
+.profileImg{
+    display: inline-block;
+    max-width: 300px;
+    width: 30%;
+    float: left;
+}
+
+.profileImg img{
+    width: 90%;
+    padding-left: 10%;
+}
+
+.profileText{
+    display: inline-block;
+    width: 60%;
+    float: right;
+}
+
 
 .aboutContentInside div h1{
     font-size: 12px;
@@ -159,7 +224,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'proxima_nova_altbold';
-    color: #4A4A4A;
+    color: #252525;
     font-size: 18px;
     padding-bottom: 10px;
 }
@@ -168,12 +233,15 @@
     padding-bottom: 10px;
 }
 
-.aboutContent{
-    background-color: #f6f6f6;
-}
-
-#patrickBio{
-    padding-top: 40px;
+.profileSeparator{
+    width: 100px;
+    height: 3px;
+    background: #c2151c;
+    margin: 0px auto;
+    display: block;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .contactName{
@@ -214,8 +282,20 @@
         padding-left: none;
         padding: 60px 0px;
     }
-    
+    #aboutHeaderContent{
+        width: 90%;
+    }
+    #aboutHeaderContent div div h2{
+        font-size: 16px;
+    }
+    #aboutHeaderContent div div h4{
+        font-size: 14px;
+    }
+    #abHeaderInside{
+        width: 95%;
+    }
 }
+
 
 
 
