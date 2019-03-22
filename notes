@@ -1,0 +1,98 @@
+<form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AF80DB988C48DF108BFE90227F379EAEF00F471A78FE7E644FAAF0A1C076D702874E602ECDBF356C3EC9F3FCC13FFF768">	
+<p>
+    <label for="fieldName">Name</label>
+    <br />
+    <input id="fieldName" name="cm-name" type="text" />
+</p>
+<p>
+    <label for="fieldEmail">Email</label>
+    <br />
+    <input id="fieldEmail" name="cm-vujiru-vujiru" type="email" class="js-cm-email-input"
+    required />
+</p>
+<p>
+    <label for="fieldzvar">Phone Number</label>
+    <br />
+    <input id="fieldzvar" name="cm-f-zvar" type="text" />
+</p>
+<p>
+    <label for="fieldzvay">Have you used our services in the past</label>
+    <br />
+    <select id="fieldzvay" name="cm-fo-zvay">
+        <option value="3698934">Yes I have</option>
+        <option value="3698935">No, I haven't had the pleasure</option>
+    </select>
+</p>
+<p>
+    <label for="fieldzvat">How long have you been playing soccer</label>
+    <br />
+    <select id="fieldzvat" name="cm-fo-zvat">
+        <option value="3698936">Less than 3 years</option>
+        <option value="3698937">3 - 5 years</option>
+        <option value="3698938">5 - 10 years</option>
+        <option value="3698939">10+ years</option>
+    </select>
+</p>
+<p>
+    <label>What are you most interested in learning?</label>
+    <br />
+    <div>
+        <input id="fieldzvad-0" name="cm-fo-zvad" type="checkbox" value="3698940"
+        />
+        <label for="fieldzvad-0">Strength Training</label>
+    </div>
+    <div>
+        <input id="fieldzvad-1" name="cm-fo-zvad" type="checkbox" value="3698941"
+        />
+        <label for="fieldzvad-1">Pace and Cardio</label>
+    </div>
+    <div>
+        <input id="fieldzvad-2" name="cm-fo-zvad" type="checkbox" value="3698942"
+        />
+        <label for="fieldzvad-2">Building Basic Skills</label>
+    </div>
+    <div>
+        <input id="fieldzvad-3" name="cm-fo-zvad" type="checkbox" value="3698943"
+        />
+        <label for="fieldzvad-3">Fine Tuning your Skills</label>
+    </div>
+</p>
+<p>
+    <label for="fieldztiak">Player Name</label>
+    <br />
+    <input id="fieldztiak" name="cm-f-ztiak" type="text" />
+</p>
+<p>
+    <label for="fieldztiau">Player Age</label>
+    <br />
+    <input id="fieldztiau" name="cm-f-ztiau" type="text" />
+</p>
+<p>
+    <label for="fieldztifl">Current Team Name</label>
+    <br />
+    <input id="fieldztifl" name="cm-f-ztifl" type="text" />
+</p>
+<p>
+    <label>Legal Disclosure</label>
+    <br />
+    <div>
+        <input id="fieldztifj-0" name="cm-fo-ztifj" type="checkbox" value="3737046"
+        />
+        <label for="fieldztifj-0">In accept the disclosure</label>
+    </div>
+</p>
+<p>
+    <label for="fieldvkyulr">Which training class are you interested in?</label>
+    <br />
+    <select id="fieldvkyulr" name="cm-fo-vkyulr">
+        <option value="4156386">Elite Summer '19 Camp</option>
+        <option value="3882114">Winter '18 Camp</option>
+        <option value="3882115">Individual Training</option>
+        <option value="3882116">Group Training</option>
+    </select>
+</p>
+<p>
+    <button class="js-cm-submit-button" type="submit">Subscribe</button>
+</p>
+</form>
+<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
